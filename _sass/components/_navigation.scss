@@ -34,11 +34,13 @@
     color: $nav-icon-color;
     background: $nav-icon-background-color;
     font-weight: bold;
-    width: 1.6em;
     height: 1.6em;
-    border-radius: 50px;
     line-height: 1.6em;
-    margin: 0 1rem;
-    padding: 0;
+    margin: 0;
+    padding: .1em 0 0;
+
+    img {
+      margin: 0;
+    }
   }
 }
