@@ -1,14 +1,18 @@
 ---
 layout: post 
 title: Dienstplan erstellen
+category: handbook
+truncated_preview: true
+excerpt_separator: <!--more-->
 ---
 
-Sobald Sie Ihre [Mitarbeiter eingerichtet]({% post_url 2021-05-11-mitarbeiter-anlegen-und-importieren %}
-) haben können Sie mit der Dienstplanung beginnen.
+Sobald Sie Ihre [TODO Mitarbeiter eingerichtet]({2021-05-11-mitarbeiter-anlegen-und-importieren}) haben können Sie mit der Dienstplanung beginnen.
 
 Im Hautpmenü > Dienstplanung erstellen Sie mit dem Button "Neuer Dienstplan" Ihren ersten Dienstplan. 
 Legen Sie bitte den Standort und den Zeitraum für den Dienstplan fest. Der Dienstplan Name wird
 automatisch aus dem Zeitraum erstellt, kann jedoch von Ihnen individuell angepasst werden.
+
+<!--more-->
 
 ![screenshot50](/assets/img/dienstplan-liste.png)
 ![screenshot50](/assets/img/dienstplan-erstellen.png)
@@ -28,7 +32,7 @@ als Benachrichtigungen geschickt.
 Pro Dienstplan können Sie auch verschiedene Einstellungen festlegen, die beeinflussen welche Informationen
 den Mitarbeitern angezeigt werden und welche Dienste erstellt werden können.
 
-![screenshot50](/assets/img/dienstplan-erstellen-einstellungen.png)
+![screenshot80](/assets/img/dienstplan-erstellen-einstellungen.png)
 
 
 #### Maximale Dienstüberlappung
@@ -44,4 +48,41 @@ Verwenden Sie auch Dienstzeitvorlagen um einfacher Dienste zu erstellen.
 
 Legen Sie die Anzahl der Stunden zwischen Erstellung und Dienstbeginn um den Dienst als kurzfristig einzustufen.
 Kurzfristige Dienste können Sie mit den Kostenträgern separat abrechnen.
+
+#### Mitarbeiter dürfen nur eigene und offene Dienste im Dienstplan sehen
+
+Standardmässig können die Mitarbeiter alle Dienste für ihren eigenen
+Arbeitsbereich sehen. Mit dieser Option können die Mitarbeiter nur Dienste sehen,
+denen Sie selbst zugeordnet sind oder die in ihrem Arbeitsbereich noch offen sind
+um sich auf die bewerben zu können.
+
+#### Mitarbeiter dürfen nur eigene Bewerbungen sehen
+
+Standardmässig sehen die Mitarbeiter die Anzahl der Bewerbungen für alle Dienste
+um sich gezielt auf noch unbeworbene Dienste bewerben zu können. Mit dieser Option
+können Sie dies einschränken, so dass die Mitarbeiter nur sehen, wo sie sich selbst
+beworben haben.
+
+#### Nur Nutzer mit Mitarbeiterdaten Berechtigung dürfen Namen der zugewiesenen Mitarbeiter sehen
+
+Standardmässig sehen alle Mitarbeiter auch die zugewiesenen Mitarbeiter für einen Dienst und können diese bei Bedarf auch kontaktieren. Mit dieser Option werden die Namen der Mitarbeiter für alle Benutzer ausgeblendet, 
+die nicht die Mitarbeiterdaten-Berechtigung haben.
+Dies betrifft dann auch Standort-Leiter.
+
+#### Geplante Vergütung nicht anzeigen
+
+Beim Erstellen von Diensten wird standardmässig die geplante Vergütung 
+berechnet und dem Mitarbeiter im Bewerbungsprozess angezeigt. Mit dieser
+Option können Sie die Berechnung der Vergütung unterbinden und somit die
+geplante Vergütung nicht anzeigen.
+
+
+Diese Einstellungen können Sie auch bequem in den [TODO Standort-Einstellungen](2021-05-25-standort-einstellungen) definieren und somit
+automatisch für alle zukünftigen Dienstpläne verwenden.
+
+## Ihre nächsten Schritte 
+
+* [Arbeitszeitvorlagen erstellen]( 2021-05-10-einrichtung-standort )
+* [Dienste erstellen]({% post_url 2021-05-02-dienste-erstellen %})
+* [TODO Dienstplan als Kalender teilen](2021-05-14-dienstplan-als-kalender-teilen)
 

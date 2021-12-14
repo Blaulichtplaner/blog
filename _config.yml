@@ -7,7 +7,7 @@ highlighter:         rouge
 
 exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
 
-permalink:           /:year/:slug:output_ext
+permalink:           /:categories/:slug:output_ext
 paginate:            5
 paginate_path:       /blog/:num
 

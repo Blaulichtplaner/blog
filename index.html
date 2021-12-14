@@ -15,10 +15,10 @@ title: Startseite
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
     {% if post.truncated_preview == true or site.blog.truncated_preview and post.truncated_preview != false %}
-      {{ post.excerpt | markdownify }}
-      <a href="{{ site.baseurl }}{{ post.url }}">Mehr lesen!</a>
+    {{ post.excerpt | markdownify }}
+    <a href="{{ site.baseurl }}{{ post.url }}">Weiter lesen...</a>
     {% else %}
-      {{ post.content | markdownify }}
+    {{ post.content | markdownify }}
     {% endif %}
   </article>
   {% endfor %}
@@ -26,28 +26,28 @@ title: Startseite
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-      <i class="fa fa-arrow-circle-o-left"></i> 
-      <span class="pagination-text">Ältere Beiträge</span>
-    </a>
+  <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+    <i class="fa fa-arrow-circle-o-left"></i>
+    <span class="pagination-text">Ältere Beiträge</span>
+  </a>
   {% else %}
-    <span class="pagination-item">
-      <i class="fa fa-arrow-circle-o-left"></i> 
-      <span class="pagination-text">Ältere Beiträge</span>
-    </span>
+  <span class="pagination-item">
+    <i class="fa fa-arrow-circle-o-left"></i>
+    <span class="pagination-text">Ältere Beiträge</span>
+  </span>
   {% endif %}
 
   <!-- <a class="pagination-item" href="#">archive</a> -->
 
   {% if paginator.previous_page %}
-    <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
-      <span class="pagination-text">Neuere Beiträge</span> 
-      <i class="fa fa-arrow-circle-o-right"></i>
-    </a>
+  <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+    <span class="pagination-text">Neuere Beiträge</span>
+    <i class="fa fa-arrow-circle-o-right"></i>
+  </a>
   {% else %}
-    <span class="pagination-item">
-      <span class="pagination-text">Neuere Beiträge</span> 
-      <i class="fa fa-arrow-circle-o-right"></i>
-    </span>
+  <span class="pagination-item">
+    <span class="pagination-text">Neuere Beiträge</span>
+    <i class="fa fa-arrow-circle-o-right"></i>
+  </span>
   {% endif %}
 </div>

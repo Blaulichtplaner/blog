@@ -1,0 +1,38 @@
+---
+layout: post 
+title: Dienste erstellen
+category: handbook
+truncated_preview: true
+excerpt_separator: <!--more-->
+---
+
+Klicken oder Tippen Sie auf einen Tag im Dienstplan um einen neuen Dienst zu erstellen. 
+In der Eingabemaske können Sie die Start- und Endzeit vom Dienst festlegen. Verwenden Sie hierzu
+am besten die Arbeitszeitvorlagen. Damit wird bei Arbeitszeiten über die Tagesgrenze (0:00 Uhr) auch automatisch das Enddatum korrekt geändert.
+
+Legen Sie als nächstes den Arbeitsbereich fest und die Tage an denen der Dienst wiederholt wird. Mit dem
+Button "Alle" können Sie schnell alle Tage eines Dientsplan auswählen.
+
+<!--more-->
+
+![screenshot50](/assets/img/dienstplan-dienst-erstellen.png)
+![screenshot50](/assets/img/dienstplan-dienst-erstellen2.png)
+
+
+Mit der Checkbox "Bewerbungen zulassen" legen Sie fest, ob die Mitarbeiter sich auf den Dienst bewerben dürfen.
+
+Die Checkbox "Kurzfristiger Dienst" legt fest, ob es sich hierbei um einen Dienst handelt, der kurz vor Dienstbeginn erstellt wurde. Dies kann automatisch Anhang der [Einstellungen im Diensplan]({% post_url 2021-04-01-dienstplan-erstellen %}#kurzfristige-dienste-und-zuweisungen) erfolgen.
+Die Checkbox hat drei Zustände: ausgewählt, nicht ausgewählt und nicht definiert. Der Standort-Manager kann
+den Zustand expliziert festlegen. Der Dienstplaner darf dieses Feld nicht verändern.
+
+Im nächsten Schritt legen Sie die Anzahl der benötiger Mitarbeiter fest. Sobald es mindestens genauso viele Zuweisungen
+wie benötigte Mitarbieter für einen Dienst gibt, gilt der Dienst als besetzt.
+
+Mit der öffentlichen Notiz können Sie eine Nachricht oder einen Hinweis für die Mitarbeiter festlegen.
+Die Mitarbeiter sehen die Notiz bevor sie sich auf den Dienst bewerben.
+
+## Ihre nächsten Schritte
+
+* [Dienste zuweisen]({% post_url 2021-05-03-dienste-zuweisen %})
+* [Dienste kommunizieren]({% post_url 2021-05-04-dienste-kommuzieren %})
+
