@@ -7,7 +7,7 @@ highlighter:         rouge
 
 exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
 
-permalink:           pretty
+permalink:           /:year/:slug:output_ext
 paginate:            5
 paginate_path:       /blog/:num
 
@@ -19,7 +19,7 @@ sass:
   style:             :compressed
 
 author:
-  name:              Christian Strunz
+  name:              MedPlan Solutions UG
   url:               blaulichtplaner.de
   email:             info@blaulichtplaner.de
 
