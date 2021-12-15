@@ -2,7 +2,24 @@
 layout: default
 title: Startseite
 ---
+{% if paginator.page == 1 %}
+<div>
+  <p>Willkommen im Blog vom Blaulichtplaner Team. Hier veröffentlichen wir aktuelle News zu den Updates der
+    Blaulichtplaner App und ein <a href="{% link handbook.html %}">Handbuch mit Erklärungen</a> zu den verschiedenen
+    Funktionen unserer Dienstplanungs-App.</p>
 
+  <p>Auf <a target="_blank" href="https://www.youtube.com/channel/UCuEmEaZTLiPk0If6FWLwqWw">unserem YouTube Kanal</a>
+    finden sie aktuelle Erklärvideos zu unserer App.</p>
+
+  <p>Unsere App können Sie im <a href="https://itunes.apple.com/us/app/blaulichtplaner/id1454388217?l=de&ls=1&mt=8">App
+      Store</a> und im <a href="https://play.google.com/store/apps/details?id=de.grundid.blaulichtplaner">Google Play
+      Store</a> downloaden.
+    Um sofort loslegen zu können öffnen Sie den Blaulichtplaner direkt in Ihrem Browser unter <a
+      href="https://beta.blaulichtplaner.app">blaulichtplaner.app</a>.
+
+  </p>
+</div>
+{% endif %}
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">

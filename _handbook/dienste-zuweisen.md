@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Dienste zuweisen
-category: handbook
+section: 1.211
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
@@ -34,9 +34,9 @@ Um dies zu dokumentieren können Sie auch eine interne Notiz hinterlegen, die de
 
 ![screenshot80](/assets/img/dienst-sondervergütung.png)
 
-Um einen noch unbesetzten Dienst bei den [Mitarbeitern zu bewerben]({% post_url 2021-05-04-dienste-kommuzieren %}) können Sie diesen per Benachrichtigung kommunizieren. Klicken Sie hierzu auf das Icon mit der Person und dem Funk-Zeichen.
+Um einen noch unbesetzten Dienst bei den [Mitarbeitern zu bewerben]({% link _handbook/dienste-kommuzieren.md %}) können Sie diesen per Benachrichtigung kommunizieren. Klicken Sie hierzu auf das Icon mit der Person und dem Funk-Zeichen.
 
 ## Ihre nächsten Schritte
 
-* [Dienste kommunizieren]({% post_url 2021-05-04-dienste-kommuzieren %})
+* [Dienste kommunizieren]({% link _handbook/dienste-kommuzieren.md %})
 

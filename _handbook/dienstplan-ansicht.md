@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Dienstplan-Ansicht
-category: handbook
+section: 1.21
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
@@ -16,7 +16,7 @@ Die Sonnen-Schirmchen zeigen Ihnen die gesetzlichen Feiertage an.
 
 ![screenshot80](/assets/img/dienstplan-actions.png)
 
-Klicken oder Tippen Sie auf einen Tag um einen [Dienst zu erstellen]({% post_url 2021-05-02-dienste-erstellen %}). Sobald ein Dienst erstellt wurde
+Klicken oder Tippen Sie auf einen Tag um einen [Dienst zu erstellen]({% link _handbook/dienste-erstellen.md %}). Sobald ein Dienst erstellt wurde
 ist er erstmal unbesetzt. Dies sehen Sie an dem roten Balken auf der linken Seite vom dem Dienst. Sobald sich
 die ersten Mitarbeiter auf einen Dienst bewerben, werden innerhalb von dem roten Balken schwarze Punkte angezeigt. Pro Bewerbung wird ein Punkt angezeigt, es werden jedoch maximal drei Punkte in der Kalenderansicht
 gezeigt. 
@@ -25,7 +25,7 @@ gezeigt.
 
 
 Wenn Sie die Namen der Bewerber sehen möchten, dann klicken Sie bitte oben auf das Personen-Icon. Es werden Ihnen je nach Breite des Bildschirm die ersten Buchstaben eines Names angezeigt. Klicken Sie den Namen an 
-um zu sehen, welche zusammenhängende Dienste der Mitarbeiter sonst noch beworben hat. Mit einem weiteren Klick können Sie dann die zusammenhängende [Dienste dem Mitarbeiter zuweisen]({% post_url 2021-05-03-dienste-zuweisen %})
+um zu sehen, welche zusammenhängende Dienste der Mitarbeiter sonst noch beworben hat. Mit einem weiteren Klick können Sie dann die zusammenhängende [Dienste dem Mitarbeiter zuweisen]({% link _handbook/dienste-zuweisen.md %})
 
 ![screenshot80](/assets/img/dienstplan-bewerber.png)
 
@@ -33,5 +33,5 @@ Sobald Sie die Dienstplanung weitestgehend abgeschlossen haben, dann können Sie
 
 ## Ihre nächsten Schritte
 
-* [Dienste zuweisen]({% post_url 2021-05-03-dienste-zuweisen %})
+* [Dienste zuweisen]({% link _handbook/dienste-zuweisen.md %})
 * [TODO Dienstplan als Kalender freigeben](2021-05-14-dienstplan-als-kalender-teilen)

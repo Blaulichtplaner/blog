@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Dienste erstellen
-category: handbook
+section: 2.1
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
@@ -21,7 +21,7 @@ Button "Alle" können Sie schnell alle Tage eines Dientsplan auswählen.
 
 Mit der Checkbox "Bewerbungen zulassen" legen Sie fest, ob die Mitarbeiter sich auf den Dienst bewerben dürfen.
 
-Die Checkbox "Kurzfristiger Dienst" legt fest, ob es sich hierbei um einen Dienst handelt, der kurz vor Dienstbeginn erstellt wurde. Dies kann automatisch Anhang der [Einstellungen im Diensplan]({% post_url 2021-04-01-dienstplan-erstellen %}#kurzfristige-dienste-und-zuweisungen) erfolgen.
+Die Checkbox "Kurzfristiger Dienst" legt fest, ob es sich hierbei um einen Dienst handelt, der kurz vor Dienstbeginn erstellt wurde. Dies kann automatisch Anhang der [Einstellungen im Diensplan]({% link _handbook/dienstplan-erstellen.md %}#kurzfristige-dienste-und-zuweisungen) erfolgen.
 Die Checkbox hat drei Zustände: ausgewählt, nicht ausgewählt und nicht definiert. Der Standort-Manager kann
 den Zustand expliziert festlegen. Der Dienstplaner darf dieses Feld nicht verändern.
 
@@ -33,6 +33,6 @@ Die Mitarbeiter sehen die Notiz bevor sie sich auf den Dienst bewerben.
 
 ## Ihre nächsten Schritte
 
-* [Dienste zuweisen]({% post_url 2021-05-03-dienste-zuweisen %})
-* [Dienste kommunizieren]({% post_url 2021-05-04-dienste-kommuzieren %})
+* [Dienste zuweisen]({% link _handbook/dienste-zuweisen.md %})
+* [Dienste kommunizieren]({% link _handbook/dienste-kommuzieren.md %})
 

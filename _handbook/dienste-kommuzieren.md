@@ -1,13 +1,13 @@
 ---
 layout: post 
 title: Dienste kommunzieren
-category: handbook
+section: 1.1
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 
 Um die Mitarbeiter auf einen noch unbesetzten Dienst hinzuweisen können Sie eine Benachrichtigung verschicken und die Mitarbeiter dazu auffordern sich auf den Dienst zu bewerben.
-Öffnen Sie hierzu einen Dienst in der [Dienstplan-Ansicht]({% post_url 2021-04-02-dienstplan-ansicht %}) und klicken auf das Icon mit der Person und dem Funk-Zeichen.
+Öffnen Sie hierzu einen Dienst in der [Dienstplan-Ansicht]({% link _handbook/dienstplan-ansicht.md %}) und klicken auf das Icon mit der Person und dem Funk-Zeichen.
 
 <!--more-->
 ![screenshot80](/assets/img/dienst-bewerben.png)

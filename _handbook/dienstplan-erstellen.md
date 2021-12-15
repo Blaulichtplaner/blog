@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: Dienstplan erstellen
-category: handbook
+section: 1.2
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
@@ -82,7 +82,7 @@ automatisch für alle zukünftigen Dienstpläne verwenden.
 
 ## Ihre nächsten Schritte 
 
-* [Arbeitszeitvorlagen erstellen]( 2021-05-10-einrichtung-standort )
-* [Dienste erstellen]({% post_url 2021-05-02-dienste-erstellen %})
-* [TODO Dienstplan als Kalender teilen](2021-05-14-dienstplan-als-kalender-teilen)
+* [Arbeitszeitvorlagen erstellen]( einrichtung-standort )
+* [Dienste erstellen]({% link _handbook/dienste-erstellen.md %})
+* [TODO Dienstplan als Kalender teilen](dienstplan-als-kalender-teilen)
 

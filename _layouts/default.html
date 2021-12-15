@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <nav class="nav-main">
-      <ul>
-        <li class="logo"><a href="{{ site.baseurl }}/"><img height="40" width="40" src="{{ site.baseurl }}/favicon-small.png"></a></li>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/">Blaulichtplaner Blog</a></li>
-        <li class="hvr-underline-reveal"><a href="https://blaulichtplaner.de">Homepage <i class="fa fa-external-link"></i></a></li>
-      </ul>
-    </nav>
+<body>
+  <nav class="nav-main">
+    <ul>
+      <li class="logo" style="vertical-align: middle;"><a href="{{ site.baseurl }}/"><img height="30" width="30"
+            src="{{ site.baseurl }}/favicon-small.png"></a></li>
+      <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/">Blaulichtplaner Blog</a></li>
+      <li class="hvr-underline-reveal"><a href="{% link handbook.html %}">Handbuch</a></li>
+      <li class="hvr-underline-reveal"><a href="https://blaulichtplaner.de">Homepage <i
+            class="fa fa-external-link"></i></a></li>
+    </ul>
+  </nav>
 
-    <div class="container content">
-      <main>
-        {{ content }}
-      </main>
+  <div class="container content">
+    <main>
+      {{ content }}
+    </main>
 
-      <footer class="footer">
-        <small>
-            <span class="copyright"><i class="fa fa-copyright"></i> <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> Blaulichtplaner</span> &middot;
-            <span>Theme von <a href="https://nicoelayda.github.io/celeste/">Nico Elayda</a></span>
-        </small>
-        <div class="ftr-links">
-          <a href="https://blaulichtplaner.de"><i class="fa fa-globe"></i></a>
-          <a href="mailto:info@blaulichtplaner.de"><i class="fa fa-envelope"></i></a>
-        </div>
-      </footer>
-    </div>
+    <footer class="footer">
+      <small>
+        <span class="copyright"><i class="fa fa-copyright"></i> <time datetime="{{ site.time | date_to_xmlschema }}">{{
+            site.time | date: '%Y' }}</time> Blaulichtplaner</span> &middot; MedPlan Solutions UG
+      </small>
+      <div class="ftr-links">
+        <a href="https://blaulichtplaner.de"><i class="fa fa-globe"></i></a>
+        <a href="mailto:info@blaulichtplaner.de"><i class="fa fa-envelope"></i></a>
+      </div>
+    </footer>
+  </div>
 
-  </body>
+</body>
+
 </html>

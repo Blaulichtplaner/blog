@@ -1,0 +1,21 @@
+---
+layout: default
+title: Handbuch
+---
+
+<div>
+  <p>In unserem Blaulichtplaner Handbuch finden Sie verschiedene Themen zur Bedienung und Einrichtung unserer
+    Dienstplanungs-App.</p>
+
+</div>
+
+<div class="posts">
+  {% assign handbook = site.handbook | sort: "section" %}
+  {% for post in handbook %}
+  <h3 class="post-title">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      {{post.section}} {{ post.title }}
+    </a>
+  </h3>
+  {% endfor %}
+</div>
