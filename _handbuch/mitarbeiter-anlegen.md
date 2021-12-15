@@ -39,7 +39,7 @@ Falls Sie den Mitarbeiter auch automatisch abrechnen, geben Sie bitte unter dem 
 Im Menüpunkt "Vergütung" können für den Mitarbeiter individuelle Regelungen getroffen werden, die die Eingaben des Arbeitsbereiches überschreiben.
 
 In den Abrechnungsdetails können Sie festlegen, wie Sie die Vergütung mit dem Mitarbeiter abrechnen. Der Blaulichtplaner kann Sie vollständig in der Abrechnungsart "Honorarabrechnung" und "Gutschrift" unterstützen.
-Damit können Sie für die Mitarbeiter vollwertigen Gutschriften erstellen oder der Mitarbeiter kann über den Blaulichtplaner eine Honorarrechnung an Sie schicken.
+Damit können Sie für die Mitarbeiter vollwertige Gutschriften erstellen oder der Mitarbeiter kann über den Blaulichtplaner eine Honorarrechnung an Sie schicken.
 ### Benutzer
 
 Um einen Mitarbeiter als Benutzer im Blaulichtplaner einzurichten müssen Sie ihn als Benutzer einladen. Der Mitarbeiter erhält an die von Ihnen angegebene E-Mail Adresse eine Nachricht geschickt mit der Aufforderung die Blaulichtplaner App zu installieren und die erstellte Einladungs-ID einzugeben. Sobald der Benutzer diese Schritte durchgeführt hat erhalten Sie als Standort-Manager eine Benachrichtigung, dass der Mitarbeiter die Einladung angenommen hat. Ab diesen Zeitpunkt kann der Mitarbeiter Dienste bewerben, die durchgeführten Dienste auswerten und an der Abrechnung teilnehmen.
