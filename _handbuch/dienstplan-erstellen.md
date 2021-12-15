@@ -4,7 +4,7 @@ title: Dienstplan erstellen
 section: 2.1
 ---
 
-Sobald Sie Ihre [TODO Mitarbeiter eingerichtet]({2021-05-11-mitarbeiter-anlegen-und-importieren}) haben können Sie mit der Dienstplanung beginnen.
+Sobald Sie Ihre [Mitarbeiter eingerichtet]({% link _handbuch/mitarbeiter-anlegen.md %}) haben können Sie mit der Dienstplanung beginnen.
 
 Im Hautpmenü > Dienstplanung erstellen Sie mit dem Button "Neuer Dienstplan" Ihren ersten Dienstplan. 
 Legen Sie bitte den Standort und den Zeitraum für den Dienstplan fest. Der Dienstplan Name wird
@@ -79,5 +79,5 @@ Diese Einstellungen können Sie auch bequem in den [Standort-Einstellungen]({% l
 
 * [Arbeitszeitvorlagen erstellen]({% link _handbuch/einrichtung-standort.md %}#arbeitszeitvorlagen )
 * [Dienste erstellen]({% link _handbuch/dienste-erstellen.md %})
-* [TODO Dienstplan als Kalender teilen](dienstplan-als-kalender-teilen)
+
 

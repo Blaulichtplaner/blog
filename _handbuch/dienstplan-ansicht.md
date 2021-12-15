@@ -26,9 +26,8 @@ um zu sehen, welche zusammenhängende Dienste der Mitarbeiter sonst noch beworbe
 
 ![screenshot80](/assets/img/dienstplan-bewerber.png)
 
-Sobald Sie die Dienstplanung weitestgehend abgeschlossen haben, dann können Sie den Dienstplan veröffentlichen. Die zugeteilten Mitarbeiter erhalten daraufhin eine Benachrichtigung und können ihre Zuteilungen prüfen. Ab jetzt ist der Dienstplan auch im [TODO freigegebenen Kalender](2021-05-14-dienstplan-als-kalender-teilen) sichtbar.
+Sobald Sie die Dienstplanung weitestgehend abgeschlossen haben, dann können Sie den Dienstplan veröffentlichen. Die zugeteilten Mitarbeiter erhalten daraufhin eine Benachrichtigung und können ihre Zuteilungen prüfen. Ab jetzt ist der Dienstplan auch im freigegebenen Kalender sichtbar.
 
 ## Ihre nächsten Schritte
 
 * [Dienste zuweisen]({% link _handbuch/dienste-zuweisen.md %})
-* [TODO Dienstplan als Kalender freigeben](2021-05-14-dienstplan-als-kalender-teilen)
