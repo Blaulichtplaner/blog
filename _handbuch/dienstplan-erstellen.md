@@ -73,12 +73,11 @@ Option können Sie die Berechnung der Vergütung unterbinden und somit die
 geplante Vergütung nicht anzeigen.
 
 
-Diese Einstellungen können Sie auch bequem in den [TODO Standort-Einstellungen](2021-05-25-standort-einstellungen) definieren und somit
-automatisch für alle zukünftigen Dienstpläne verwenden.
+Diese Einstellungen können Sie auch bequem in den [Standort-Einstellungen]({% link _handbuch/einrichtung-standort.md %}#einstellungen) definieren und somit automatisch für alle zukünftigen Dienstpläne verwenden.
 
 ## Ihre nächsten Schritte 
 
-* [Arbeitszeitvorlagen erstellen]( einrichtung-standort )
+* [Arbeitszeitvorlagen erstellen]({% link _handbuch/einrichtung-standort.md %}#arbeitszeitvorlagen )
 * [Dienste erstellen]({% link _handbuch/dienste-erstellen.md %})
 * [TODO Dienstplan als Kalender teilen](dienstplan-als-kalender-teilen)
 
