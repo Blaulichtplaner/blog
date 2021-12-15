@@ -30,9 +30,9 @@ Um dies zu dokumentieren können Sie auch eine interne Notiz hinterlegen, die de
 
 ![screenshot80](/assets/img/dienst-sondervergütung.png)
 
-Um einen noch unbesetzten Dienst bei den [Mitarbeitern zu bewerben]({% link _handbook/dienste-kommunizieren.md %}) können Sie diesen per Benachrichtigung kommunizieren. Klicken Sie hierzu auf das Icon mit der Person und dem Funk-Zeichen.
+Um einen noch unbesetzten Dienst bei den [Mitarbeitern zu bewerben]({% link _handbuch/dienste-kommunizieren.md %}) können Sie diesen per Benachrichtigung kommunizieren. Klicken Sie hierzu auf das Icon mit der Person und dem Funk-Zeichen.
 
 ## Ihre nächsten Schritte
 
-* [Dienste kommunizieren]({% link _handbook/dienste-kommunizieren.md %})
+* [Dienste kommunizieren]({% link _handbuch/dienste-kommunizieren.md %})
 

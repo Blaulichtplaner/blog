@@ -79,6 +79,6 @@ automatisch für alle zukünftigen Dienstpläne verwenden.
 ## Ihre nächsten Schritte 
 
 * [Arbeitszeitvorlagen erstellen]( einrichtung-standort )
-* [Dienste erstellen]({% link _handbook/dienste-erstellen.md %})
+* [Dienste erstellen]({% link _handbuch/dienste-erstellen.md %})
 * [TODO Dienstplan als Kalender teilen](dienstplan-als-kalender-teilen)
 

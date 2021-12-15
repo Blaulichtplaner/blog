@@ -10,8 +10,8 @@ title: Handbuch
 </div>
 
 <div class="posts">
-  {% assign handbook = site.handbook | sort: "section" %}
-  {% for post in handbook %}
+  {% assign handbuch = site.handbuch | sort: "section" %}
+  {% for post in handbuch %}
   <h3 class="post-title">
     <a href="{{ site.baseurl }}{{ post.url }}">
       {{post.section}} {{ post.title }}
