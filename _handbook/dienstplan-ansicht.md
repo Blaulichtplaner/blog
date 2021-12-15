@@ -1,9 +1,7 @@
 ---
 layout: post 
 title: Dienstplan-Ansicht
-section: 1.21
-truncated_preview: true
-excerpt_separator: <!--more-->
+section: 2.2
 ---
 
 Nachdem Sie einen Dienstplan in der Dienstplanung geöffnet haben, sehen Sie eine Kalenderansicht
@@ -12,7 +10,6 @@ die Bewerbungsphase und die Einstellungen für den Dienstplan ändern. Das Müll
 Das Icon mit dem Pfeil nach oben veröffentlicht den Dienstplan und das Icon mit den Personen zeigt Ihnen die
 Namen der Bewerber direkt bei den Diensten an.
 Die Sonnen-Schirmchen zeigen Ihnen die gesetzlichen Feiertage an.
-<!--more-->
 
 ![screenshot80](/assets/img/dienstplan-actions.png)
 

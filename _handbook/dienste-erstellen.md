@@ -1,9 +1,7 @@
 ---
 layout: post 
 title: Dienste erstellen
-section: 2.1
-truncated_preview: true
-excerpt_separator: <!--more-->
+section: 2.3
 ---
 
 Klicken oder Tippen Sie auf einen Tag im Dienstplan um einen neuen Dienst zu erstellen. 
@@ -13,11 +11,8 @@ am besten die Arbeitszeitvorlagen. Damit wird bei Arbeitszeiten über die Tagesg
 Legen Sie als nächstes den Arbeitsbereich fest und die Tage an denen der Dienst wiederholt wird. Mit dem
 Button "Alle" können Sie schnell alle Tage eines Dientsplan auswählen.
 
-<!--more-->
-
 ![screenshot50](/assets/img/dienstplan-dienst-erstellen.png)
 ![screenshot50](/assets/img/dienstplan-dienst-erstellen2.png)
-
 
 Mit der Checkbox "Bewerbungen zulassen" legen Sie fest, ob die Mitarbeiter sich auf den Dienst bewerben dürfen.
 
@@ -34,5 +29,5 @@ Die Mitarbeiter sehen die Notiz bevor sie sich auf den Dienst bewerben.
 ## Ihre nächsten Schritte
 
 * [Dienste zuweisen]({% link _handbook/dienste-zuweisen.md %})
-* [Dienste kommunizieren]({% link _handbook/dienste-kommuzieren.md %})
+* [Dienste kommunizieren]({% link _handbook/dienste-kommunizieren.md %})
 

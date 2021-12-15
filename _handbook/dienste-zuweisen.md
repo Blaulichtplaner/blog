@@ -1,15 +1,11 @@
 ---
 layout: post 
 title: Dienste zuweisen
-section: 1.211
-truncated_preview: true
-excerpt_separator: <!--more-->
+section: 2.4
 ---
 
 Sobald Sie die ersten Dienste erstellt haben öffnet ein Klick auf einen Dienst die Maske zum Zuweisen
 von Mitarbeitern. In dieser Maske sehen Sie auf einen Blick ob der Dienst bereits besetzt oder noch unbesetzt ist. Sie können schnell Mitarbeiter suchen, die Sie diesem Dienst zuweisen wollen. Gleichzeitig sehen Sie auch alle Bewerber für den Dienst und können diese mit nur einem Klick dem Dienst zuweisen.
-
-<!--more-->
 
 ![screenshot80](/assets/img/dienst-zuweisungen.png)
 
@@ -34,9 +30,9 @@ Um dies zu dokumentieren können Sie auch eine interne Notiz hinterlegen, die de
 
 ![screenshot80](/assets/img/dienst-sondervergütung.png)
 
-Um einen noch unbesetzten Dienst bei den [Mitarbeitern zu bewerben]({% link _handbook/dienste-kommuzieren.md %}) können Sie diesen per Benachrichtigung kommunizieren. Klicken Sie hierzu auf das Icon mit der Person und dem Funk-Zeichen.
+Um einen noch unbesetzten Dienst bei den [Mitarbeitern zu bewerben]({% link _handbook/dienste-kommunizieren.md %}) können Sie diesen per Benachrichtigung kommunizieren. Klicken Sie hierzu auf das Icon mit der Person und dem Funk-Zeichen.
 
 ## Ihre nächsten Schritte
 
-* [Dienste kommunizieren]({% link _handbook/dienste-kommuzieren.md %})
+* [Dienste kommunizieren]({% link _handbook/dienste-kommunizieren.md %})
 
