@@ -9,7 +9,7 @@ Für eine effizenten Dienstplanung können Sie unter Firmen-Verwaltung Ihre Mita
 Firma sehen Sie bereits für Ihren Benutzer den ersten Mitarbeiter. Mit dem Button "Neuer Mitarbeiter" können Sie
 beliebigviele Mitarbeiter Ihrer Firma hinzufügen. 
 
-![screenshot80](/assets/img/mitarbeiter-bearbeiten.png)
+![screenshot80](/assets/screenshots/mitarbeiter-bearbeiten_framed.png)
 
 Tragen Sie neben dem Namen mindestens eine E-Mail Adresse sowie eine individuelle Personalnummer ein und drücken Sie "Speichern". Wir empfehlen stets, jede Personalnummer nur einmal zu vergeben, falls Sie jemals das Profil aller Mitarbeiter nachbearbeiten möchten, können Sie anhand der Personalnummer Daten importieren.  
 Des Weiteren können Sie pro Mitarbeiter die Vorlieben was die Länge der Dienste und die Mindest- und Höchstzahl von Stunden pro Monat anbetrifft definieren.

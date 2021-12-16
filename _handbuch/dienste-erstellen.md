@@ -12,8 +12,8 @@ am besten die Arbeitszeitvorlagen. Damit wird bei Arbeitszeiten über die Tagesg
 Legen Sie als nächstes den Arbeitsbereich fest und die Tage an denen der Dienst wiederholt wird. Mit dem
 Button "Alle" können Sie schnell alle Tage eines Dientsplan auswählen.
 
-![screenshot50](/assets/img/dienstplan-dienst-erstellen.png)
-![screenshot50](/assets/img/dienstplan-dienst-erstellen2.png)
+![screenshot50](/assets/screenshots/dienstplan-dienst-erstellen_framed.png)
+![screenshot50](/assets/screenshots/dienstplan-dienst-erstellen2_framed.png)
 
 Mit der Checkbox "Bewerbungen zulassen" legen Sie fest, ob die Mitarbeiter sich auf den Dienst bewerben dürfen.
 

@@ -9,7 +9,7 @@ Damit können die Mitarbeiter selbständig ihr Impf- uns Genesenen-Zertifikat sc
 Der Auftraggeber erhält dann regelmäßig eine Übersieht über alle Dienste und ob die gesetztliche Regelung erfüllt worden ist. Auf diese Weise reduzieren wir den Aufwand für alle Beteiligten auf ein Minimum.
 
 <!--more-->
-![screenshot80](/assets/img/covid-status.png)
+![screenshot80](/assets/screenshots/covid-status_framed.png)
 
 Eine weiterere Funktion ist die Erfassung von kurzfristigen Diensten. Diese Funktion wurde von einigen unserer Kunden nachgefragt und soll die Abrechnung von Diensten, die kurz vor Dienstbeginn in den Dienstplan eingestellt wurden erleichtern. Dienste, die beispielsweise 48h vor Dienstbeginn eingestellt wurden, sind entsprechend schwierig zu besetzen und erfordern mehr Aufwand von dem Standortleiter. Manche Regelungen erlauben es diesen Aufwand zusätzlich zu vergüten. Der Blaulichtplaner erlaubt es jetzt die Kurzfristigkeit von Diensten zu definieren und die Zusatzkosten pro Dienst zu erfassen. Damit fließen diese Kosten automatisch in die Abrechnung und werden in der Rechnung separat aufgelistet und können so leicht abgerechnet werden.
 
@@ -17,7 +17,7 @@ Eine weiterere Funktion ist die Erfassung von kurzfristigen Diensten. Diese Funk
 
 In der Auswertung der Dienste haben wir jetzt Tabs zu den benachbarten Dienstplänen hinzugefügt, so dass der Standortleiter bei der Auswertung vom ersten und letzten Dienst leicht in die vorherigen Dienstpläne "spicken" kann um zu überprüfen ob eventuelle Überstunden korrekt erfasst worden sind. Auf diese Weise können Sie zum Beispiel sehr schnell sehen ob Überstunden auf Grund einer Verspätnung des Nachfolgers korrekt erfasst worden sind und der nächste Dienst entsprechend kürzer abgerechnet wird. Auf diese Weise vermeiden Sie eine Doppeltabrechnung von Dienststunden und später Ärger mit dem Kostenträger.
 
-![screenshot80](/assets/img/dienstplan-auswertung.png)
+![screenshot80](/assets/screenshots/dienstplan-auswertung_framed.png)
 
 Des Weiteren haben wir wie immer viele kleine Verbesserungen, wie den Export der unbesetzten Dienste als CSV Datei implementiert um Ihnen die Arbeiten in der Planung vom Rettungsdienst zu erleichtern.
 

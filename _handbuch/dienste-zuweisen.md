@@ -8,14 +8,14 @@ date: 2021-04-01
 Sobald Sie die ersten Dienste erstellt haben öffnet ein Klick auf einen Dienst die Maske zum Zuweisen
 von Mitarbeitern. In dieser Maske sehen Sie auf einen Blick ob der Dienst bereits besetzt oder noch unbesetzt ist. Sie können schnell Mitarbeiter suchen, die Sie diesem Dienst zuweisen wollen. Gleichzeitig sehen Sie auch alle Bewerber für den Dienst und können diese mit nur einem Klick dem Dienst zuweisen.
 
-![screenshot80](/assets/img/dienst-zuweisungen.png)
+![screenshot80](/assets/screenshots/dienst-zuweisungen_framed.png)
 
 In der Mitarbeitersuche können Sie für einen Mitarbeiter eine Bewerbung hinterlegen oder diesen 
 Mitarbeiter direkt hinzufügen. Falls Sie einen Mitarbeiter aus den Bewerbern diesem Dienst zuordnen wollen, 
 dann klicken Sie einfach auf das Plus-Person Icon. Der Mitarbeiter ist darauf hin zugewiesen, 
 die Statistik der Bewerbungen und Zuweisungen wird aktualisiert und der Dienst entsprechend als besetzt markiert.
 
-![screenshot80](/assets/img/dienst-zugewiesen.png)
+![screenshot80](/assets/screenshots/dienst-zugewiesen_framed.png)
 
 Bewerber, die dem Dienst bereits zuweisen sind, können einem Dienst nicht erneut zugewiesen werden. Möchten 
 Sie eine Zuweisung löschen, so klicken Sie einfach auf das Person-Minus Icon neben der Zuweisung. Die Zuweisung

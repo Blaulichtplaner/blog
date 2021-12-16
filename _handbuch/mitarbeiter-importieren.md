@@ -9,7 +9,7 @@ Den Mitarbeiter-Import finden Sie im Bereich "Mitarbeiter Verwalten" innerhalb I
 
 Wenn Sie das erste Mal Mitarbeiter importieren, sollten Sie die Mustevorlage für den Import downloaden. Klicken Sie dazu auf den Button "Mustervorlage erzeugen" und speichern Sie diese auf Ihrem Gerät ab. Die erzeugte CSV-Datei enthält alle Arbeitsbereiche und erlaubt es Ihnen somit ganz einfach für alle Mitarbeiter die entsprechenden Berechtigungen einzurichten.
 
-![screenshot80](/assets/img/mitarbeiter-import.png)
+![screenshot80](/assets/screenshots/mitarbeiter-import_framed.png)
 
 Ergänzen Sie in der CSV-Datei beliebig viele Mitarbeiter. Erstellen Sie für jeden Mitarbeiter eine eigene Zeile. Orientieren Sie sich an der ersten "Musterzeile". Geben Sie entsprechend der Vorgabe Titel (wenn vorhanden), Nachname, Vornamen, Personalnummer (vermeiden Sie zwingend Überschneidungen oder Doppervergaben einer Nummer), die E-Mail-Adresse und ggf. eine Telefonnummer ein. 
 In der Spalte "Einladung" können Sie durch Eintragung eines "ja" oder "nein" wählen, ob der Mitarbeiter automatisch beim Import als Benutzer eingeladen werden soll. Sie können Mitarbeiter auch später einzeln einladen. Tragen Sie jeweils nur ja oder nein in die Spalte ein, alle anderen Werte werden als nein interpretiert. 

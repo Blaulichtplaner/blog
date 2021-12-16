@@ -11,8 +11,8 @@ Im Hautpmenü > Dienstplanung erstellen Sie mit dem Button "Neuer Dienstplan" Ih
 Legen Sie bitte den Standort und den Zeitraum für den Dienstplan fest. Der Dienstplan Name wird
 automatisch aus dem Zeitraum erstellt, kann jedoch von Ihnen individuell angepasst werden.
 
-![screenshot50](/assets/img/dienstplan-liste.png)
-![screenshot50](/assets/img/dienstplan-erstellen.png)
+![screenshot50](/assets/screenshots/dienstplan-liste_framed.png)
+![screenshot50](/assets/screenshots/dienstplan-erstellen_framed.png)
 
 Der Bewerbungszeitraum legt fest in welcher Zeit die Mitarbeiter aufgerufen werden sich für Dienste zu 
 bewerben. Vor Beginn der Bewerbungsphase können sich die Mitarbeiter auf keine Dienste bewerben. Nach dem
@@ -29,7 +29,7 @@ als Benachrichtigungen geschickt.
 Pro Dienstplan können Sie auch verschiedene Einstellungen festlegen, die beeinflussen welche Informationen
 den Mitarbeitern angezeigt werden und welche Dienste erstellt werden können.
 
-![screenshot80](/assets/img/dienstplan-erstellen-einstellungen.png)
+![screenshot80](/assets/screenshots/dienstplan-erstellen-einstellungen_framed.png)
 
 
 #### Maximale Dienstüberlappung

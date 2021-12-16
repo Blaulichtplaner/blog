@@ -17,7 +17,7 @@ eine Sondervergütung an Wochentagen (z.B. Sonntag) und an Feiertagen definieren
 
 Wenn sich ab einen bestimmten Zeitpunkt die Vergütungssätze ändern, dann erstellen Sie einen neuen Abrechnungsdatensatz und legen das Datum fest, ab wann die neuen Vergütungssätze gelten.
 
-![screenshot80](/assets/img/arbeitsbereich-vergütung.png)
+![screenshot80](/assets/screenshots/arbeitsbereich-vergütung_framed.png)
 
 ### Kostenträger
 

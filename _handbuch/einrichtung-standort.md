@@ -10,7 +10,7 @@ in der Firmen-Verwaltung und klicken dort auf "Neuer Standort". Der Assistent f�
 Punkte Firmenname, Arbeitsbereich und Vergütung durch. Nachdem Sie die Daten gespeichert haben, können Sie weitere 
 Einstellungen für den Standort durchführen.
 
-![screenshot80](/assets/img/verwaltung-standort.png)
+![screenshot80](/assets/screenshots/verwaltung-standort_framed.png)
 
 Unter dem Menüpunkt "Standort bearbeiten" können Sie die Dienstadresse und weitere Informationen zu dem Standort erfassen, die dann dem Mitarbeiten beim Dienst angezeigt werden. So können die Mitarbeiter zum Beispiel die dort hinterlegten Telefonnummern anrufen oder die Internetseite öffnen und zu dem Standort navigieren. Wählen Sie ebenfalls das Bundesland aus, an dem sich später die Vorauswahl der Feiertage orientieren soll.
  

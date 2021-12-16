@@ -8,7 +8,7 @@ date: 2021-04-01
 Um die Mitarbeiter auf einen noch unbesetzten Dienst hinzuweisen können Sie eine Benachrichtigung verschicken und die Mitarbeiter dazu auffordern sich auf den Dienst zu bewerben.
 Öffnen Sie hierzu einen Dienst in der [Dienstplan-Ansicht]({% link _handbuch/dienstplan-ansicht.md %}) und klicken auf das Icon mit der Person und dem Funk-Zeichen.
 
-![screenshot80](/assets/img/dienst-bewerben.png)
+![screenshot80](/assets/screenshots/dienst-bewerben_framed.png)
 
 In der darauf folgenden Maske könnten Sie eine Nachricht verfassen und die gewünschten Mitarbeiter auswählen. 
 Nutzen Sie die Auswahl-Icons um schnell alle Mitarbeiter auszuwählen, abzuwählen oder die Auswahl umzukehren.
