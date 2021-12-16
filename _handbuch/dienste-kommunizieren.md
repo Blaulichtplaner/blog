@@ -2,7 +2,7 @@
 layout: post 
 title: Dienste kommunizieren
 section: 2.5
-excerpt_separator: <!--more-->
+date: 2021-04-01
 ---
 
 Um die Mitarbeiter auf einen noch unbesetzten Dienst hinzuweisen können Sie eine Benachrichtigung verschicken und die Mitarbeiter dazu auffordern sich auf den Dienst zu bewerben.

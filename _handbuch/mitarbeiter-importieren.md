@@ -2,6 +2,7 @@
 layout: post 
 title: Mitarbeiter importieren
 section: 1.6
+date: 2021-05-02
 ---
 
 Den Mitarbeiter-Import finden Sie im Bereich "Mitarbeiter Verwalten" innerhalb Ihrer Firma. Mit dem Icon mit den zwei Pfeilen Hoch und Runter können Sie den Import/Export aufrufen.

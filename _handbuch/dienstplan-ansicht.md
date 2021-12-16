@@ -2,6 +2,7 @@
 layout: post 
 title: Dienstplan-Ansicht
 section: 2.2
+date: 2021-04-10
 ---
 
 Nachdem Sie einen Dienstplan in der Dienstplanung geöffnet haben, sehen Sie eine Kalenderansicht

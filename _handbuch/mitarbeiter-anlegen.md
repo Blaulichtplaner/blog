@@ -2,6 +2,7 @@
 layout: post 
 title: Mitarbeiter anlegen
 section: 1.5
+date: 2021-05-02
 ---
 
 Für eine effizenten Dienstplanung können Sie unter Firmen-Verwaltung Ihre Mitarbeiter verwalten. In einer neuen

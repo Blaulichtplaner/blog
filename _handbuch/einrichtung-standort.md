@@ -2,6 +2,7 @@
 layout: post 
 title: Einrichtung Standort
 section: 1.2
+date: 2021-04-01
 ---
 
 Um einen neuen Standort zu erstellen verwenden Sie ähnlich wie beim Erstellen der Firma den Assistenten

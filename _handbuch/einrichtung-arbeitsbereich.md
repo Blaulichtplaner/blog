@@ -2,6 +2,7 @@
 layout: post 
 title: Einrichtung Arbeitsbereich
 section: 1.3
+date: 2021-04-14
 ---
 
 Pro Standort können Sie mehrere Arbeitsbereiche festlegen. Mit dem Erstellen von einem Standort erstellen Sie automatisch auch den ersten Arbeitsbereich. Legen Sie bei Bedarf weitere Arbeitsbereiche über den Button "neuer Arbeitsbereich" an. Hierzu müssen Sie diesen nur benennen, eine individuelle Farbe zuteilen und eine Basisvergütung für diesen Arbeitsbereich festlegen. Nutzen Sie unterschiedliche Farben, um später einen übersichtlichen Dienstplan zu erhalten. Denken Sie gegebenenfalls auch gleich wieder an die Erstellung von Arbeitszeit-Vorlagen.

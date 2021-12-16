@@ -2,6 +2,7 @@
 layout: post 
 title: Dienste zuweisen
 section: 2.4
+date: 2021-04-01
 ---
 
 Sobald Sie die ersten Dienste erstellt haben öffnet ein Klick auf einen Dienst die Maske zum Zuweisen

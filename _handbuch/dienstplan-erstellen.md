@@ -2,6 +2,7 @@
 layout: post 
 title: Dienstplan erstellen
 section: 2.1
+date: 2021-04-10
 ---
 
 Sobald Sie Ihre [Mitarbeiter eingerichtet]({% link _handbuch/mitarbeiter-anlegen.md %}) haben können Sie mit der Dienstplanung beginnen.

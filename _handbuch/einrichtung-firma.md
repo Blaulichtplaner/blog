@@ -2,6 +2,7 @@
 layout: post 
 title: Einrichtung Firma
 section: 1.1
+date: 2021-04-01
 ---
 
 Wenn Sie die App zum ersten Mal öffen oder im Hauptmenü die Verwaltung öffnen, finden Sie den Menüpunkt "Neue Firma anlegen". Nach einem Klick auf den Button "Firma anlegen" öffnet sich ein Assistent, der Ihnen hilft, die Firma, den Standort und den ersten Arbeitsbereich samt Vergütung einzurichten.

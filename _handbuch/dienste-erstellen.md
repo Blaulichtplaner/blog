@@ -2,6 +2,7 @@
 layout: post 
 title: Dienste erstellen
 section: 2.3
+date: 2021-04-01
 ---
 
 Klicken oder Tippen Sie auf einen Tag im Dienstplan um einen neuen Dienst zu erstellen. 
