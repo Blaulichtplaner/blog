@@ -20,7 +20,7 @@ Des Weiteren wurden viele Detailverbesserungen auf Anregung unserer Kunden umges
 - Bei den Kostenträgerverträgen können jetzt spezielle Wochentagregelungen hinterlegt werden. Damit können Sie bestimmte Wochentage zu anderen Stundensätzen abrechnen. Darüber hinaus können Sie jetzt auch pauschale und
 wiederkehrende Kosten direkt in den Verträgen hinterlegen um sie automatisiert den Rechnungen hinzuzufügen.
 - Die Abrechnung der Überstunden kann jetzt bei Bedarf abgeschaltet werden.
-![screenshot80](/assets/screenshots/kostenträger_vertrag_framed.png)
+![screenshot80](/assets/screenshots/kostenträger_vertrag_framed.png)
 - Kostenträger-Rechnungen können jetzt direkt aus der App versendet werden. Sie können in der App den Status der Mail verfolgen und sehen ob sie am Zielserver angekommen ist.
 - Die Dienstauswertung wurde für die Mitarbeiter vereinfacht, so dass sie jetzt bei Änderungen automatisch gespeichert wird
 - Es wurden Dienstplanansichten hinzugefügt, die die Dienstplanung für mehrere Standorte gleichzeitig erlauben. 
