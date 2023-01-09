@@ -24,7 +24,7 @@ In dem Bereich Berechtigungen können Sie einfach die Berechtigungen für die Ar
 
 ### Einstellungen
 
-Mit den Standort-Einstellungen legen Sie verschiedene Standart-Werte für die Dienstplanung fest.
+Mit den Standort-Einstellungen legen Sie verschiedene Standard-Werte für die Dienstplanung fest.
 
 #### Maximale Dienstüberlappung
 
