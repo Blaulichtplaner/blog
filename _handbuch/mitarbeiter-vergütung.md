@@ -15,29 +15,29 @@ Mit diesen Daten können Sie dann bequem im Blaulichtplaner für die Mitarbeiter
 ### Einrichtung
 
 Im Verwaltungsbereich Ihrer Firma finden Sie den Menüpunkt "Mitarbeitervergütung". Darin finden Sie normalerweise die "Standard"-Vergütung, die bereits beim Erstellen eines Arbeitsbereichs angelegt worden ist.
-Sie können beliebigt viele Vergütungsarten festlegen um die Mitarbeiter an unterschiedlichen Arbeitsbereichen
+Sie können beliebig viele Vergütungsarten festlegen um die Mitarbeiter an unterschiedlichen Arbeitsbereichen
 unterschiedlich zu vergüten.
 
 Jede Vergütungsart kann aus mehreren Vergütungssätzen bestehen, die in einer zeitlichen Reihenfolge existieren. 
 Dadurch können Sie einen neuen Vergütungssatz für die Zukunft definieren während die bisherigen Dienste noch 
-mit dem aktuellen Datensatz abgerechnet werden. Gleichzeitig erhalten Sie so eine Historie der Vergütungssätze.
+mit dem aktuellen Datensatz berechnet werden. Gleichzeitig erhalten Sie so eine Historie der Vergütungssätze.
 
 ![screenshot80](/assets/img/verguetungen-historie.png)
 
 Bei der Einrichtung einer Vergütung legen Sie zuerst den Basisstundensatz, sowie die Vergütung für Einsätze
-fest. Sie können festlegen ob alle Einsätze vergütet werden oder ob erst ab einer bestimmten Anzahl an Einsätzen diese vergütet werden.
+fest. Sie können festlegen, ob alle Einsätze vergütet werden oder ob erst ab einer bestimmten Anzahl an Einsätzen diese vergütet werden.
 Im nächsten Schritt können Sie die Vergütung der Überstunden festlegen. Hier können Sie einen neuen Stundensatz oder einen Zuschlag in % angeben. Der neue Stundensatz wird automatisch aus dem Zuschlag berechnet und unten angezeigt.
-Falls Sie keine Überstunden vergüten geben Sie hier bitte 0 ein. Falls Sie hier nichts angeben, werden Überstunden wie normale Stunden vergütet.
+Falls Sie keine Überstunden vergüten, geben Sie hier bitte 0 ein. Falls Sie hier nichts angeben, werden Überstunden wie normale Stunden vergütet.
 
 ![Vergütung](/assets/img/verguetungen-teil1.png)
 
 Bei der Wochentagregelung können Sie Nacht- und Wochenendzuschläge definieren. Dabei können beliebige Blöcke
-definiert werden, die nicht länger als 24h sind und sich nicht überlappen. Falls Sie Wochenendzuschlag und Nachzuschlag aufaddieren, geben Sie gleich die Summe in Prozent für diesen Zeitbereich ein.
+definiert werden, die nicht länger als 24h sind und sich nicht überlappen. Falls Sie Wochenendzuschlag und Nachtzuschlag aufaddieren, geben Sie gleich die Summe in Prozent für diesen Zeitbereich ein.
 
 ![Vergütung](/assets/img/verguetungen-teil2.png)
 
 Falls Sie eine Regel bearbeiten möchten, dann klicken Sie einfach den Namen an. Mit dem Kopier-Icon können Sie 
-eine Regel einfach kopieren um beispielsweise einen anderen Wochentag auszuwählen. Mit dem Mülleimer-Icon können
+eine Regel einfach kopieren, um beispielsweise einen anderen Wochentag auszuwählen. Mit dem Mülleimer-Icon können
 Sie eine Regel löschen.
 
 Zum Schluss können Sie auch die Feiertagsvergütung festlegen. Wie bereits bei den Überstunden und Zuschlägen
@@ -47,7 +47,7 @@ können Sie hier einen neuen Stundensatz oder einen Zuschlag in % eingaben.
 
 Sobald Sie die Regelung definiert haben, können Sie diese mit dem Beispielrechner ausprobieren und für verschiedene Dienste durchkalkulieren. Bei dem Beispielrechner geben Sie die geplante Start- und Endzeit sowie
 die tatsächliche Start- und Endzeit. Gleichzeitig können Sie die Anzahl der Einsätze und den Grund für Überstunden angeben.
-Optional können Sie auch eine Sondervergütung und einen Dienstbonus definieren, die normalerweilse beim Dienst 
+Optional können Sie auch eine Sondervergütung und einen Dienstbonus definieren, die normalerweise beim Dienst 
 gespeichert werden.
 
 ![Vergütung](/assets/img/verguetungen-beispielrechner.png)
@@ -59,7 +59,7 @@ nach der neuen Regel berechnet. Eine neue Zuweisung zum Arbeitsbereich ist nicht
 
 Beim Anlegen von Arbeitsbereichen werden Sie immer gefragt, welche Vergütungsart Sie für den Arbeitsbereich 
 verwenden wollen. Falls Sie dies nicht getan haben oder die Vergütungsart ändert wollen, so können Sie dies
-direkt beim Bearbeiten von Arbeitsbereich tun. 
+direkt beim Bearbeiten vom Arbeitsbereich tun. 
 
 ![Vergütung](/assets/img/verguetungen-arbeitsbereich.png)
 
@@ -73,7 +73,7 @@ Sobald ein Mitarbeiter einen Dienst abgeschlossen und ausgewertet hat, kann auch
 Gehen Sie hierzu in den Bereich "Auswertungen" und wählen den entsprechenden Dienstplan und den Dienst aus.
 
 In der Auswertung sehen Sie dann die Auswertung des Mitarbeiters und die Berechnung der Vergütung. Diese können
-Sie dann annehmen, selber korrigieren oder ablehen damit der Mitarbeiter die Daten korrigiert.
+Sie dann annehmen, selber korrigieren oder ablehnen damit der Mitarbeiter die Daten korrigiert.
 
 ![Vergütung](/assets/img/verguetungen-auswertung.png)
 
