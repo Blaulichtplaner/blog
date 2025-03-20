@@ -17,7 +17,7 @@ Die Checkbox "Platzhalter Mitarbeiter" erlaubt es Ihnen einen Mitarbeiter als Pl
 
 ### Berechtigungen
 
-Sobald Sie einen Mitarbeiter gespeichert haben können Sie für diesen Berechtigungen festlegen. Mit den Berechigungen legen Sie fest welchen Arbeitsbereichen der Mitarbeiter zugeordnet werden und welche Dienstpläne der Mitarbeiter sehen darf. Die Zurodnung zu den Arbeitsbereichen erlaubt es dem Mitarbeiter auch entsprechende Dienste zu bewerben.
+Sobald Sie einen Mitarbeiter gespeichert haben können Sie für diesen Berechtigungen festlegen. Mit den Berechigungen legen Sie fest welchen Arbeitsbereichen der Mitarbeiter zugeordnet werden und welche Dienstpläne der Mitarbeiter sehen darf. Die Zuordnung zu den Arbeitsbereichen erlaubt es dem Mitarbeiter auch entsprechende Dienste zu bewerben.
 
 ![screenshot80](/assets/img/mitarbeiter-berechtigungen.png)
 
