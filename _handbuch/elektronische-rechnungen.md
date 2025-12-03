@@ -9,6 +9,21 @@ Mit dem Blaulichtplaner können elektronische Rechnungen für die Kostenträger 
 
 Damit das System eine Rechnung als elektronische Rechnung nach dem ZUGFeRD Format erstellt, müssen bestimmte Angaben in der Konfiguration eingetragen werden.
 
+### Kostenträgerrechnugen
+
+Für die Erstellung der Kostenträgerrechnungen sind folgende Informationen in den Rechnungs- und Steuerdaten der Firma notwendig:
+
+- Firmenname
+- Adresse
+
+In den Kostenträgerstammdaten sind folgende Informationen notwendig:
+
+- der Name
+- die Adresse oder alternative Rechnungsadresse
+- die E-Mail für elektronischen Rechnungsversand
+- die Kreditorennummer
+- die Checkbox "Rechnung im ZUGFeRD-Format erstellen" muss aktiviert sein
+
 ### Honorarrechnungen
 
 Für die Erstellung der Honorarrechnungen sind folgende Informationen in den Rechnungs- und Steuerdaten der Firma notwendig:
@@ -21,7 +36,7 @@ In den Mitarbeiterstammdaten sind folgende Informationen notwendig:
 
 - die Kreditorennummer (falls nicht vorhanden, dann die Personalnummer)
 
-Der Mitarbeiter muss in seinem Honorardaten/Rechnungs- und Steuerdaten Profil folgende Informationen erfassen:
+Der Mitarbeiter muss in seinem "Honorardaten/Rechnungs- und Steuerdaten" Profil folgende Informationen erfassen:
 
 - Firmenname 
 - Adresse
