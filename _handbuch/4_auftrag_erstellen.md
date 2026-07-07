@@ -7,6 +7,9 @@ date: 2026-06-19
 
 Mit der Auftragsverwaltung im Blaulichtplaner können Sie Aufträge/Dienste erstellen, die von einem Dienstplan, einem Standort und einem Arbeitsbereich unabhängig sind. Aufträge können beispielsweise für Krankentransporte, Auslandrückholungen, Veranstaltungen, Sondereinsätze oder andere Anlässe erstellt werden, die nicht in den regulären Dienstplan passen.
 
+Um den Überblick über die Aufträge zu behalten, werden die Aufträge in eigenen Kalendern gruppiert. Sie können im 
+Blaulichtplaner beliebig viele Auftragskalender erstellen, um die Aufträge zu organisieren. Sie können beispielsweise einen Kalender für Krankentransporte und einen weiteren Kalender für Veranstaltungen erstellen. Die Aufträge werden dann in den entsprechenden Kalendern angezeigt.
+
 Für die Zuordnung zu den Aufträgen ist hauptsächlich die Qualifikation der Mitarbeiter relevant. Daher können Sie bei der Erstellung eines Auftrags die benötigten Qualifikationen festlegen, damit sich nur Mitarbeiter mit den entsprechenden Qualifikationen auf den Auftrag bewerben können.
 Sie müssen die Mitarbeiter nicht einem Standort oder einem Arbeitsbereich zuordnen.
 
