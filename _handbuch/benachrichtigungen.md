@@ -30,7 +30,8 @@ Hier sehen Sie eine Übersicht über die verschiedenen Benachrichtigungen, die i
 				const title = notification.title ?? '';
 				const body = notification.body ?? '';
 				const to = notification.to ?? '';
-				const versand = notification.versand ?? '';
+				const when = notification.when ?? '';
+				const type = notification.type ?? '';
 				const channelStyles = {
 					push: 'background:#e0f0ff; color:#1a6bbf; border:1px solid #b3d4f5;',
 					mail: 'background:#e6f9ee; color:#1a7a3c; border:1px solid #a8e6bf;',
@@ -93,8 +94,9 @@ Hier sehen Sie eine Übersicht über die verschiedenen Benachrichtigungen, die i
 
 				meta.innerHTML = `
 					<div style="font-size: 13px; line-height: 1.5; color: #4b5563;">
+						<strong>Kategorie:</strong> ${type}<br>
 						<strong>An:</strong> ${to}<br>
-						<strong>Wann:</strong> ${versand}<br>
+						<strong>Wann:</strong> ${when}<br>
 						<strong>Kanal:</strong> ${channels}
 					</div>
 				`;

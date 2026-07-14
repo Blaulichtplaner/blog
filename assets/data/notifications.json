@@ -1,371 +1,494 @@
 [
   {
+    "id": "advertiseShift",
+    "description": "Hinweis auf unbesetzte Dienste",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Vakante Schicht veröffentlicht",
-    "body": "Eine neue Schicht wurde am Standort {{STANDORT}} von {{DIENSTBEGINN}} bis {{DIENSTENDE}} als unbesetzt markiert. {{ÖFFENTLICHE_NOTIZ}}\r\nMöchten Sie sich hierfür bewerben?",
-    "versand": "Manuell durch Benutzer verschickt, wenn ein Dienst zusätzlich beworben wird",
+    "body": "Eine neue Schicht wurde am Standort {{STANDORT}} von {{DIENSTBEGINN}} bis {{DIENSTENDE}} als unbesetzt markiert. {{ÖFFENTLICHE_NOTIZ}}\nMöchten Sie sich hierfür bewerben?",
+    "when": "Manuell durch Benutzer verschickt, wenn ein Dienst zusätzlich beworben wird",
     "to": "ausgewählte Benutzer",
     "push": "X",
-    "mail": "(X)",
-    "": ""
+    "mail": "(X)"
   },
   {
-    "title": "Neue Dienstzuweisung in {{STANDORT}}\r\n\r\n(optional aus individueller Vorlage)",
-    "body": "Ihnen wurde soeben der Dienst ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTENDE}} am Standort {{STANDORT}} zugeteilt.\r\n\r\n(optional aus individueller Vorlage)",
-    "versand": "Wenn Dienstzuweisung (sofort oder zeitverzögert)",
+    "id": "assignmentUpdated",
+    "description": "Änderungen am zugewiesenen Dienst (z.B. Datum)",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
+    "title": "Neue Dienstzuweisung in {{STANDORT}}\n<br>\n(optional aus individueller Vorlage)",
+    "body": "Ihnen wurde soeben der Dienst ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTENDE}} am Standort {{STANDORT}} zugeteilt.\n<br>\n(optional aus individueller Vorlage)",
+    "when": "Wenn Dienstzuweisung (sofort oder zeitverzögert)",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "assignmentUpdated",
+    "description": "Änderungen am zugewiesenen Dienst (z.B. Datum)",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Dienstzeit in {{STANDORT}} wurde geändert",
     "body": "Die Zeit vom Dienst ({{ARBEITSBEREICH}}) von {{ALTER_DIENSTBEGINN}} bis {{ALTES_DIENSTENDE}} wurde geändert. Die neue Dienstzeit lautet: {{DIENSTBEGINN}} bis {{DIENSTENDE}}.",
-    "versand": "Wenn Dienstzeit geändert wurde",
+    "when": "Wenn Dienstzeit geändert wurde",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "assignmentUpdated",
+    "description": "Änderungen am zugewiesenen Dienst (z.B. Datum)",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Private Notiz für Sie hinzugefügt",
     "body": "Der Standort-Manager hat für den Dienst ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTENDE}} am Standort {{STANDORT}} folgende Notiz hinzugefügt: {{PRIVATE_NOTIZ}}.",
-    "versand": "Wenn private Notiz bei der Zuweisung erstellt oder geändert wird.",
+    "when": "Wenn private Notiz bei der Zuweisung erstellt oder geändert wird.",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "assignmentUpdated-deleted",
+    "description": "Ablösung vom Dienst",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Dienstablösung in {{STANDORT}}",
     "body": "Sie wurden vom Dienst ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTENDE}} am Standort {{STANDORT}} abgelöst.",
-    "versand": "Wenn ein Benutzer vom Dienst abgelöst wird",
+    "when": "Wenn ein Benutzer vom Dienst abgelöst wird",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "employeeChange",
+    "description": "Änderung an Mitarbeiter Stammdaten",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "{{PERSON}} hat den Namen/Adresse/Bankverbindung geändert",
     "body": "Bitte prüfen Sie die Änderung in der Firmen-Verwaltung ({{FIRMEN-NAME}})",
-    "versand": "Wenn der Benutzer seine persönlichen Daten ändert",
+    "when": "Wenn der Benutzer seine persönlichen Daten ändert",
     "to": "Firmen-Manager der zugehöriger Firma",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "evaluationReminder",
+    "description": "Erinnerung zur Dienstauswertung",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Dienst Auswertung",
     "body": "Bitte werten Sie den Dienst vom {{DIENSTBEGINN}} bis {{DIENSTENDE}} am Standort {{STANDORT}} final aus",
-    "versand": "6 Stunden nach dem Dienst, falls er noch nicht ausgewertet worden ist",
+    "when": "6 Stunden nach dem Dienst, falls er noch nicht ausgewertet worden ist",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "evaluationReminder-request",
+    "description": "Erinnerung zur Dienstauswertung",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Bitte werten Sie den Dienst am {{DIENSTBEGINN}} aus",
-    "body": "Der Standortmanager hat Sie gebeten, den Dienst am {{DIENSTBEGINN}\r\nam Standort {{STANDORT}} auszuwerten, um ihn abrechnen zu können.",
-    "versand": "Manuell durch den Firmen-Manager in der Dienstauswertung",
+    "body": "Der Standortmanager hat Sie gebeten, den Dienst am {{DIENSTBEGINN}\nam Standort {{STANDORT}} auszuwerten, um ihn abrechnen zu können.",
+    "when": "Manuell durch den Firmen-Manager in der Dienstauswertung",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "expenditure-requested",
+    "description": "Sachkosten eingereicht",
+    "canbedisabled": "yes",
+    "type": "Sachkosten",
     "title": "Sachkosten eingereicht",
     "body": "{{PERSON}} hat Sachkosten im Wert von {{BETRAG}} eingereicht.",
-    "versand": "Nachdem ein Benutzer Sachkosten eingereicht hat",
+    "when": "Nachdem ein Benutzer Sachkosten eingereicht hat",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "expenditure-rejected",
+    "description": "Sachkosten abgelehnt",
+    "canbedisabled": "yes",
+    "type": "Sachkosten",
     "title": "Sachkosten abgelehnt",
     "body": "Ihre Sachkosten wurden abgelehnt {{BEGRÜNDUNG}}",
-    "versand": "Nachdem der Manager die Sachkosten abgelehnt hat",
+    "when": "Nachdem der Manager die Sachkosten abgelehnt hat",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "feeRequest",
+    "description": "Dienstplanabrechnung angefordert",
+    "canbedisabled": "yes",
+    "type": "Abrechnung",
     "title": "Dienstplanabrechnung angefordert",
     "body": "Bitte prüfen Sie die Abrechnung {{ABRECHNUNG}} und erstellen Sie Ihre Honorarrechnung.",
-    "versand": "Nachdem der Manager eine Abrechnungsprüfung angefordert hat",
+    "when": "Nachdem der Manager eine Abrechnungsprüfung angefordert hat",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "feeRequestConfirmed",
+    "description": "Dienstplanabrechnung bestätigt",
+    "canbedisabled": "yes",
+    "type": "Abrechnung",
     "title": "Dienstplanabrechnung bestätigt",
     "body": "{{PERSON}} hat die Abrechnung {{ABRECHNUNG}} bestätigt.",
-    "versand": "Nachdem der Benutzer eine Abrechnung bestätigt hat",
+    "when": "Nachdem der Benutzer eine Abrechnung bestätigt hat",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "feeRequestRejected",
+    "description": "Dienstplanabrechnung abgelehnt",
+    "canbedisabled": "yes",
+    "type": "Abrechnung",
     "title": "Dienstplanabrechnung abgelehnt",
     "body": "{{PERSON}} hat die Abrechnung {{ABRECHNUNG}} mit folgendem Grund abgelehnt: {{BEGRÜNDUNG}}",
-    "versand": "Nachdem der Benutzer eine Abrechnung abgelehnt hat",
+    "when": "Nachdem der Benutzer eine Abrechnung abgelehnt hat",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "newShiftCreated",
+    "description": "Hinweis auf neue Dienste",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Neue Schicht erstellt am Standort {{STANDORT}}",
     "body": "Eine neue Schicht wurde am Standort {{STANDORT}} von {{DIENSTBEGINN}} bis {{DIENSTENDE}} erstellt. {{ÖFFENTLICHE NOTIZ}}\nMöchten Sie sich hierfür bewerben?",
-    "versand": "Wenn entsprechend konfiguriert und der Dienstplan aktiv ist.",
+    "when": "Wenn entsprechend konfiguriert und der Dienstplan aktiv ist.",
     "to": "Alle Benutzer mit der entsprechenden Arbeitsbereich Berechtigung",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "payRollNotification",
+    "description": "Abrechnung für Sie verfügbar",
+    "canbedisabled": "no",
+    "type": "Abrechnung",
     "title": "Abrechnung verfügbar",
     "body": "Für den Zeitraum {{ABRECHNUNG}} wurde eine Abrechnung für Sie erstellt.",
-    "versand": "Wenn die Abrechnung freigegeben wurde.",
+    "when": "Wenn die Abrechnung freigegeben wurde.",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "pinBoardCreated",
+    "description": "Pin-Board Eintrag erstellt",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "{{FIRMEN-NAME}} hat den Pin-Beitrag mit dem Titel {{TITEL}} erstellt.",
     "body": "Bitte lesen Sie den Beitrag. (oder individueller Text)",
-    "versand": "Wenn der Manager einen Pin-Board erstellt und eine entsprechende Option aktiviert",
+    "when": "Wenn der Manager einen Pin-Board erstellt und eine entsprechende Option aktiviert",
     "to": "Benutzer mit Leseberechtigung für den Pinboardeintrag",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "pinBoardUpdated",
+    "description": "Pin-Board Eintrag geändert",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "{{FIRMEN-NAME}} hat den Pin-Beitrag mit dem Titel {{TITEL}} geändert.",
     "body": "Bitte lesen Sie den Beitrag. (oder individueller Text)",
-    "versand": "Wenn der Manager einen Pin-Board ändert und eine entsprechende Option aktiviert",
+    "when": "Wenn der Manager einen Pin-Board ändert und eine entsprechende Option aktiviert",
     "to": "Benutzer mit Leseberechtigung für den Pinboardeintrag",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "shiftAssigned",
+    "description": "Dienstbesetzung (für den Planner)",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Dienst am {{DIENSTBEGINN}} wurde besetzt.",
     "body": "Der Dienst am Standort {{STANDORT}} ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTBEGINN}} wurde erfolgreich besetzt.",
-    "versand": "Der Versand erfolgt, wenn ein Dienst von einem Planner erstellt worden oder zuletzt geändert worden ist und eine Person zugewiesen wurde und der Dienst damit als besetzt gilt.",
+    "when": "Der Versand erfolgt, wenn ein Dienst von einem Planner erstellt worden oder zuletzt geändert worden ist und eine Person zugewiesen wurde und der Dienst damit als besetzt gilt.",
     "to": "Alle Planner Benutzer mit der Arbeitsbereich-Berechtigung",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "shiftUnmanned",
+    "description": "Dienst unbesetzt (für den Planner)",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Dienst am {{DIENSTBEGINN}} ist wieder unbesetzt.",
-    "body": "Der Dienst am Standort {{STANDORT}}\r\n ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTENDE}} ist nicht mehr besetzt!",
-    "versand": "Der Versand erfolgt, wenn ein Dienst von einem Planner erstellt worden oder zuletzt geändert worden ist und eine Person von dem Dienst entfernt worden ist und der Dienst damit als unbesetzt gilt.",
+    "body": "Der Dienst am Standort {{STANDORT}} ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTENDE}} ist nicht mehr besetzt!",
+    "when": "Der Versand erfolgt, wenn ein Dienst von einem Planner erstellt worden oder zuletzt geändert worden ist und eine Person von dem Dienst entfernt worden ist und der Dienst damit als unbesetzt gilt.",
     "to": "Alle Planner Benutzer mit der Arbeitsbereich-Berechtigung",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "plannerCreatedShift",
+    "description": "Neuer Dienst erstellt (für den Manager)",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Neuer Dienst erstellt in {{STANDORT}}",
     "body": "{{PERSON}} hat einen neuen Dienst im Dienstplan {{DIENSTPLAN}} vom {{DIENSTBEGINN}} bis {{DIENSTENDE}} ({{ARBEITSBEREICH}}) erstellt.",
-    "versand": "Wird verschickt, wenn ein Benutzer mit der Planner-Rolle einen Dienst erstellt und eine entsprechende Einstellung aktiviert ist",
+    "when": "Wird verschickt, wenn ein Benutzer mit der Planner-Rolle einen Dienst erstellt und eine entsprechende Einstellung aktiviert ist",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "qualificationRequest",
+    "description": "Anforderung zum Hochladen eines Qualifikationsnachweises",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "Dokumente zur Qualifikation angefordert",
     "body": "Die Firma {{FIRMEN-NAME}} hat Unterlagen zu Ihrer Qualifikation \"{{QUALIFIKATION}}\" angefordert. Bitte stellen Sie die notwendigen Dokumente in Ihrem Profil der Firma zur Verfügung.",
-    "versand": "Wird verschickt wenn eine Firmenmaneger einen entsprechenden Qualifikationsnachweis verlangt",
+    "when": "Wird verschickt wenn eine Firmenmaneger einen entsprechenden Qualifikationsnachweis verlangt",
     "to": "ausgewählte Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "qualificationShare",
+    "description": "Qualifikationsnachweise hochgeladen",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "Dokumente zur Qualifikation zur Verfügung gestellt",
     "body": "{{PERSON}} hat Ihnen Unterlagen zu seiner Qualifikation online gestellt.",
-    "versand": "Wird verschickt, wenn ein Mitarbeiter die Qualifikationsnachweise mit einer Firma teilt.",
+    "when": "Wird verschickt, wenn ein Mitarbeiter die Qualifikationsnachweise mit einer Firma teilt.",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "shiftExchange",
+    "description": "Dienstabgabewunsch",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "{{PERSON}} möchte ihren/seinen Dienst abgeben",
-    "body": "Der Dienst ist am Standort {STANDORT}} von {{DIENSTBEGINN}} bis {{DIENSTENDE}}\r\nGrund für die Dienstabgabe: {{GRUND}}\r\nHinweis für den Manager: {{HINWEIS}}",
-    "versand": "Wird verschickt, wenn ein Mitarbeiter einen Dienstabgabewunsch äußert",
+    "body": "Der Dienst ist am Standort {STANDORT}} von {{DIENSTBEGINN}} bis {{DIENSTENDE}}\nGrund für die Dienstabgabe: {{GRUND}}\nHinweis für den Manager: {{HINWEIS}}",
+    "when": "Wird verschickt, wenn ein Mitarbeiter einen Dienstabgabewunsch äußert",
     "to": "Standort-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "shiftplanPublished",
+    "description": "Dienstplan veröffentlicht",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Dienstplan {{DIENSTPLAN_NAME}} am Standort {{STANDORT}} veröffentlicht",
     "body": "Es wurden Ihnen {{ANZAHL_DIENSTE}} Dienste am Standort {{STANDORT}} zugewiesen. Bitte prüfen Sie die zugewiesenen Dienste.",
-    "versand": "Wird verschickt, wenn ein Dienstplan veröffentlicht wird",
+    "when": "Wird verschickt, wenn ein Dienstplan veröffentlicht wird",
     "to": "Benutzer, die in dem Dienstplan min. einen Dienst zugewiesen bekommen haben",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "upcomingShift",
+    "description": "Kommender Dienst",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Kommender Dienst",
     "body": "Sie haben vom {{DIENSTBEGINN}} bis {{DIENSTENDE}} ({{DIENSTDAUER}}) Dienst am Standort {{STANDORT}}",
-    "versand": "Wird täglich um 8, 14 und 20 Uhr für die kommenden 24h versendet. Zusammenhängende Dienste werden nur zu Dienstbeginn benachrichtigt",
+    "when": "Wird täglich um 8, 14 und 20 Uhr für die kommenden 24h versendet. Zusammenhängende Dienste werden nur zu Dienstbeginn benachrichtigt",
     "to": "betroffener Benutzer",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "upcomingWeekahead",
+    "description": "Dienste in den nächsten 14 Tagen",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Ihre Dienste und Aufträge in den kommenden 14 Tagen",
     "body": "Sie haben zwischen {{DATUM_START}} und {{DARUM_ENDE}} {{ANZAHL_DIENSTE}} Dienste und {{ANZAHL_AUFTRÄGE}} Aufträge zugewiesen bekommen.",
-    "versand": "Immer Samstags um 8 Uhr. Nur per Mail mit kompletter Auflistung aller Dienste und Aufträge",
+    "when": "Immer Samstags um 8 Uhr. Nur per Mail mit kompletter Auflistung aller Dienste und Aufträge",
     "to": "betroffener Benutzer",
     "push": "",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "voteCreated",
+    "description": "Bewerbung erstellt",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Neue Dienstbewerbung in {{STANDORT}}",
     "body": "{{PERSON}} hat sich auf den Dienst vom {{DIENSTBEGINN}} bis {{DIENSTENDE}} beworben",
-    "versand": "Alle 5 Minuten, wenn eine Bewerbung für einen aktiven Dienstplan eingeht oder dies entsprechend auch für Dienstpläne in Planung aktiviert worden ist.",
+    "when": "Alle 5 Minuten, wenn eine Bewerbung für einen aktiven Dienstplan eingeht oder dies entsprechend auch für Dienstpläne in Planung aktiviert worden ist.",
     "to": "Standort-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "votingStarted",
+    "description": "Bewerbungsphase startet",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Bewerbungsphase für Dienstpläne gestartet",
-    "body": "Bitte bewerben Sie sich jetzt für die Dienstpläne {{DIENSTPLÄNE}}\r\nan den Standorten {{STANDORT_LISTE}}.",
-    "versand": "Um Mitternacht, wenn eine entsprechende Bewerbungsphase beginnt. Wenn die Bewerbungsphase für mehrere Dienstpläne gleichzeitig beginnt, werden die Standorte und Dienstpläne zusammengefasst und nur eine Benachrichtigung verschickt.",
+    "body": "Bitte bewerben Sie sich jetzt für die Dienstpläne {{DIENSTPLÄNE}}\nan den Standorten {{STANDORT_LISTE}}.",
+    "when": "Um Mitternacht, wenn eine entsprechende Bewerbungsphase beginnt. Wenn die Bewerbungsphase für mehrere Dienstpläne gleichzeitig beginnt, werden die Standorte und Dienstpläne zusammengefasst und nur eine Benachrichtigung verschickt.",
     "to": "betroffene Mitarbeiter",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "workingHoursMonitoring",
+    "description": "Arbeitszeitüberwachnung",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "Arbeitszeitüberwachung Mitarbeiter Antwort [{{INTERNE_ID}}]",
     "body": "{{PERSON}} hat auf die Arbeitszeitüberwachung geantwortet.",
-    "versand": "Wenn ein Mitarbeiter seine Arbeitszeiten überschreitet und eine entsprechende Antwort ausgewählt hat.",
+    "when": "Wenn ein Mitarbeiter seine Arbeitszeiten überschreitet und eine entsprechende Antwort ausgewählt hat.",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "occupationalStatusRequest",
+    "description": "Anfrage zum beruflicher Status",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "Bitte beruflichen Status aktualisieren",
     "body": "Sie haben seit {{ANZAHL_TAGEN}} Tagen Ihren beruflichen Status nicht mehr aktualisiert. Bitte aktualisieren Sie Ihren beruflichen Status, um sich weiter auf Dienste bewerben zu können.",
-    "versand": "Der Status wird täglich um 8:15 geprüft und ggf. die Benachrichtigung verschickt.",
+    "when": "Der Status wird täglich um 8:15 geprüft und ggf. die Benachrichtigung verschickt.",
     "to": "betroffener Mitarbeiter",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "occupationalStatus",
+    "description": "Antwort zum beruflichen Status",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "Beruflicher Status aktualisiert",
-    "body": "{{PERSON}} hat den beruflichen Status aktualisiert.\r\n\r\nDer neue Status erlaubt kein Bewerben von Diensten. Die Bewerbungen wurden beim Mitarbeiter automatisch gesperrt.<br><b>oder</b><br>Der neue Status erlaubt wieder das Bewerben von Diensten. Bitte entsperren Sie die Bewerbungsmöglichkeit beim Mitarbeiter.<br><b>oder</b><br>Bewerbungen bleiben beim Mitarbeiter gesperrt.",
-    "versand": "Wird verschickt, wenn der Mitarbeiter seinen beruflichen Status geändert hat und Änderungen festgestellt worden sind.",
+    "body": "{{PERSON}} hat den beruflichen Status aktualisiert.\n\nDer neue Status erlaubt kein Bewerben von Diensten. Die Bewerbungen wurden beim Mitarbeiter automatisch gesperrt.\n<br><b>oder</b><br>\nDer neue Status erlaubt wieder das Bewerben von Diensten. Bitte entsperren Sie die Bewerbungsmöglichkeit beim Mitarbeiter.\n<br><b>oder</b><br>\nBewerbungen bleiben beim Mitarbeiter gesperrt.",
+    "when": "Wird verschickt, wenn der Mitarbeiter seinen beruflichen Status geändert hat und Änderungen festgestellt worden sind.",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "invitationAccepted",
+    "description": "Einladung angenommen",
+    "canbedisabled": "yes",
+    "type": "Verwaltung",
     "title": "Einladung angenommen",
     "body": "{{PERSON}} hat Ihre Einladung angenommen",
-    "versand": "Wenn der Mitarbeiter die Einladung annimmt",
+    "when": "Wenn der Mitarbeiter die Einladung annimmt",
     "to": "Firmen-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "automaticAssignment",
+    "description": "Automaitsche Zuweisung",
+    "canbedisabled": "yes",
+    "type": "Dienstplan",
     "title": "Automatische Dienstzuweisung in {{STANDORT}}",
     "body": "Der Dienst von {{DATUM}} wurde nach einer Bewerbung automatisch mit {{PERSON}} besetzt.",
-    "versand": "Wenn automatische Bewerbungsannahme aktiviert ist und ein Mitarbeiter sich bewirbt.",
+    "when": "Wenn automatische Bewerbungsannahme aktiviert ist und ein Mitarbeiter sich bewirbt.",
     "to": "Standort-Manager",
     "push": "X",
-    "mail": "X",
-    "": ""
+    "mail": "X"
   },
   {
+    "id": "automaticAssignmentFailed",
+    "description": "Automaitsche Zuweisung fehltgeschlagen",
+    "canbedisabled": "no",
+    "type": "Dienstplan",
     "title": "Automatische Dienstzuweisung in {{STANDORT}} nicht möglich",
     "body": "Der Dienst von {DATUM}} kann nicht automatisch mit {{PERSON}} besetzt werden. {{GRUND}}",
-    "versand": "Wenn die automatisch Bewerbungsannahme aktiviert ist und die Zuweisung nicht möglich ist, beispielsweise weil der Mitarbeiter zu diesem Zeitpunkt woanders zugewiesen ist",
+    "when": "Wenn die automatisch Bewerbungsannahme aktiviert ist und die Zuweisung nicht möglich ist, beispielsweise weil der Mitarbeiter zu diesem Zeitpunkt woanders zugewiesen ist",
     "to": "Standort-Manager",
     "push": "X",
-    "mail": "??",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "connectOfferApplication",
+    "description": "Neue Bewerbung für eine Ausschreibung",
+    "canbedisabled": "yes",
+    "type": "Aufträge",
     "title": "Neue Bewerbung für die Ausschreibung {{AUFTRAG_TITEL}}",
     "body": "{{PERSON}} hat sich auf die Ausschreibung am {{DATUM_AB}} beworben {{MITARBEITER_NACHRICHT}}",
-    "versand": "Verschickt wenn sich jemand auf eine Ausschreibung bewirbt",
+    "when": "Verschickt wenn sich jemand auf eine Ausschreibung bewirbt",
     "to": "Konfigurierte Empfänger in der Ausschreibung",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "connectOfferPublished",
+    "description": "Neue Ausschreibung veröffentlicht",
+    "canbedisabled": "yes",
+    "type": "Aufträge",
     "title": "Neue Ausschreibung für Standort {{PLZ}} {{STADT}}",
     "body": "{{AUFTRAG_TITEL}} - Zeitraum ab:{{DATUM_AB}} {{BESCHREIBUNG}}",
-    "versand": "Verschickt wenn eine Ausschreibung veröffentlicht wird, die als “veröffentlicht” gilt und passende Suchaufträge vorhanden sind",
+    "when": "Verschickt wenn eine Ausschreibung veröffentlicht wird, die als “veröffentlicht” gilt und passende Suchaufträge vorhanden sind",
     "to": "betroffene Mitarbeiter, die einen Suchauftrag im Radius von dem Standort erstellt haben",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "taskAssignmentCreated",
+    "description": "Auftrag zugeteilt",
+    "canbedisabled": "no",
+    "type": "Aufträge",
     "title": "Ihnen wurde soeben der Auftrag {TITEL}} zugewiesen",
     "body": "Beginn am {{DATUM_AB}} {{ADRESSE}}- Bitte überprüfen Sie die Details.",
-    "versand": "Verschickt nach einer Zuweisung zum Auftrag",
+    "when": "Verschickt nach einer Zuweisung zum Auftrag",
     "to": "betroffener Mitarbeiter",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "taskAssignmentDeleted",
+    "description": "Auftrag gelöscht",
+    "canbedisabled": "no",
+    "type": "Aufträge",
     "title": "Sie wurden vom Auftrag {{TITEL}} abgelöst",
     "body": "Beginn war am {{DATUM_AB}} - Bitte überprüfen Sie die Details.",
-    "versand": "Verschickt wenn eine Zuweisung zum Auftrag gelöscht wird",
+    "when": "Verschickt wenn eine Zuweisung zum Auftrag gelöscht wird",
     "to": "betroffener Mitarbeiter",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "taskAssignmentUpdated",
+    "description": "Auftrag aktualisiert",
+    "canbedisabled": "no",
+    "type": "Aufträge",
     "title": "Der Auftrag {{TITEL_ZUVOR}} wurde aktualisiert.",
-    "body": "Der Titel des Auftrags wurde von {{TITEL_ZUVOR}} zu {{TITEL_NEU}} geändert.\r\n<br><b>oder</b><br>\r\nDer Beginn des Auftrags wurde auf {{DATUM_NEU}} geändert.\r\n<br><b>oder</b><br>\r\nDas Ende des Auftrags wurde auf {{DATUM_NEU}} geändert.\r\n<br><b>oder</b><br>\r\nDie Beschreibung des Auftrags wurde geändert.\r\nBitte überprüfen Sie die Details.",
-    "versand": "Verschickt wenn ein Auftrag geändert wird",
+    "body": "Der Titel des Auftrags wurde von {{TITEL_ZUVOR}} zu {{TITEL_NEU}} geändert.\n<br><b>oder</b><br>\nDer Beginn des Auftrags wurde auf {{DATUM_NEU}} geändert.\n<br><b>oder</b><br>\nDas Ende des Auftrags wurde auf {{DATUM_NEU}} geändert.\n<br><b>oder</b><br>\nDie Beschreibung des Auftrags wurde geändert.\nBitte überprüfen Sie die Details.",
+    "when": "Verschickt wenn ein Auftrag geändert wird",
     "to": "betroffene Mitarbeiter",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "taskEvaluationRejected",
+    "description": "Auswertung abgelehnt",
+    "canbedisabled": "yes",
+    "type": "Aufträge",
     "title": "Ihre Auswertung für den Auftrag {{AUFTRAG_TITEL}} wurde abgelehnt",
     "body": "Begründung: {{BEGRÜNDUNG}} - Bitte aktualisieren Sie Ihre Auswertung",
-    "versand": "Verschickt wenn der Manager eine Auswertung ablehnt",
+    "when": "Verschickt wenn der Manager eine Auswertung ablehnt",
     "to": "betroffener Mitarbeiter",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   },
   {
+    "id": "upcomingTask",
+    "description": "Kommender Auftrag",
+    "canbedisabled": "no",
+    "type": "Aufträge",
     "title": "Kommender Auftrag",
     "body": "Ihr Auftrag \"{{AUFTRAG_TITEL}}\" beginnt am {{DATUM_AB}} ab {{STANDORT}. Geplante Dauer: {{DAUER}}.",
-    "versand": "Wird täglich um 8:15, 14:15 und 20:15 mit den Aufträgen der nächsten 24h verschickt.",
+    "when": "Wird täglich um 8:15, 14:15 und 20:15 mit den Aufträgen der nächsten 24h verschickt.",
     "to": "betroffene Mitarbeiter",
     "push": "X",
-    "mail": "",
-    "": ""
+    "mail": ""
   }
 ]
