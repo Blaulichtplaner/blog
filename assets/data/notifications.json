@@ -47,7 +47,7 @@
   {
     "title": "{{PERSON}} hat den Namen/Adresse/Bankverbindung geändert",
     "body": "Bitte prüfen Sie die Änderung in der Firmen-Verwaltung ({{FIRMEN-NAME}})",
-    "versand": "Wenn der Benutzer seine persönliche Daten ändert",
+    "versand": "Wenn der Benutzer seine persönlichen Daten ändert",
     "to": "Firmen-Manager der zugehöriger Firma",
     "push": "X",
     "mail": "",
@@ -245,7 +245,7 @@
   {
     "title": "Bewerbungsphase für Dienstpläne gestartet",
     "body": "Bitte bewerben Sie sich jetzt für die Dienstpläne {{DIENSTPLÄNE}}\r\nan den Standorten {{STANDORT_LISTE}}.",
-    "versand": "Um Mitternacht, wenn eine entsprechende Bewerbungsphase beginnt",
+    "versand": "Um Mitternacht, wenn eine entsprechende Bewerbungsphase beginnt. Wenn die Bewerbungsphase für mehrere Dienstpläne gleichzeitig beginnt, werden die Standorte und Dienstpläne zusammengefasst und nur eine Benachrichtigung verschickt.",
     "to": "betroffene Mitarbeiter",
     "push": "X",
     "mail": "",
