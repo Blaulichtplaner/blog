@@ -84,19 +84,19 @@
     "mail": ""
   },
   {
-    "id": "evaluationReminder-request",
+    "id": "evaluationRequest",
     "description": "Erinnerung zur Dienstauswertung",
     "canbedisabled": "no",
     "type": "Dienstplan",
     "title": "Bitte werten Sie den Dienst am {{DIENSTBEGINN}} aus",
-    "body": "Der Standortmanager hat Sie gebeten, den Dienst am {{DIENSTBEGINN}\nam Standort {{STANDORT}} auszuwerten, um ihn abrechnen zu können.",
+    "body": "Der Standortmanager hat Sie gebeten, den Dienst am {{DIENSTBEGINN}}\nam Standort {{STANDORT}} auszuwerten, um ihn abrechnen zu können.",
     "when": "Manuell durch den Firmen-Manager in der Dienstauswertung",
     "to": "betroffener Benutzer",
     "push": "X",
     "mail": ""
   },
   {
-    "id": "expenditure-requested",
+    "id": "expenditureRequested",
     "description": "Sachkosten eingereicht",
     "canbedisabled": "yes",
     "type": "Sachkosten",
@@ -108,7 +108,7 @@
     "mail": ""
   },
   {
-    "id": "expenditure-rejected",
+    "id": "expenditureRejected",
     "description": "Sachkosten abgelehnt",
     "canbedisabled": "yes",
     "type": "Sachkosten",
