@@ -6,7 +6,7 @@ date: 2026-09-02
 ---
 
 Der Blaulichtplaner kann automatisch Einzelüberlassungsverträge erstellen, wenn Sie mit externen Planern zusammenarbeiten.
-Für diese Konstellation ist es notwendig, dass Sie die externen Planer als Benutzer in Ihrem System anlegen. Die Planer erstellen dann Dieste auf die sich Ihre Mitarbeiter bewerben können. Planer Benuter, die über die Mitarbeiter-Daten Berechtigung verfügen, können die Bewerbungen der Mitarbeiter annehmen und somit die Mitarbeiter den Diensten zuordnen. Ohne die Mitarbeiter-Daten Berechtigung müssen die Bewerbungen von den Standort-Managern angenommen werden. 
+Für diese Konstellation ist es notwendig, dass Sie die externen Planer als Benutzer in Ihrem System anlegen. Die Planer erstellen dann Dienste, auf die sich Ihre Mitarbeiter bewerben können. Planer Benutzer, die über die Mitarbeiter-Daten Berechtigung verfügen, können die Bewerbungen der Mitarbeiter annehmen und somit die Mitarbeiter den Diensten zuordnen. Ohne die Mitarbeiter-Daten Berechtigung müssen die Bewerbungen von den Standort-Managern angenommen werden. 
 Ist ein Mitarbeiter einem Dienst zugeordnet, kann der Planer einen Einzelüberlassungsvertrag erstellen. Der Vertrag wird automatisch mit den Daten des Mitarbeiters und des Dienstes befüllt. Der Planer kann den Vertrag dann als PDF herunterladen.
 
 Um diese Funktion zu nutzen, müssen die folgenden Punkte im Blaulichtplaner konfiguriert sein:
