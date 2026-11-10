@@ -36,6 +36,9 @@ title: Startseite
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
+    {% if post.banner_image %}
+    <img class="post-banner" src="{{ post.banner_image | relative_url }}" alt="{{ post.title | escape }}">
+    {% endif %}
     {% if post.truncated_preview == true or site.blog.truncated_preview and post.truncated_preview != false %}
     {{ post.excerpt | markdownify }}
     <a href="{{ site.baseurl }}{{ post.url }}">Weiter lesen...</a>

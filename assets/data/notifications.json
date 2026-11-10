@@ -330,7 +330,7 @@
     "type": "Dienstplan",
     "title": "Bewerbungsphase für Dienstpläne gestartet",
     "body": "Bitte bewerben Sie sich jetzt für die Dienstpläne {{DIENSTPLÄNE}}\nan den Standorten {{STANDORT_LISTE}}.",
-    "when": "Um Mitternacht, wenn eine entsprechende Bewerbungsphase beginnt. Wenn die Bewerbungsphase für mehrere Dienstpläne gleichzeitig beginnt, werden die Standorte und Dienstpläne zusammengefasst und nur eine Benachrichtigung verschickt.",
+    "when": "Wird verschickt so wie die entsprechende Bewerbungsphase beginnt. Wenn die Bewerbungsphase für mehrere Dienstpläne gleichzeitig beginnt, werden die Standorte und Dienstpläne zusammengefasst und nur eine Benachrichtigung verschickt.",
     "to": "betroffene Mitarbeiter",
     "push": "X",
     "mail": ""
