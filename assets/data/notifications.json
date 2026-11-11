@@ -12,8 +12,8 @@
     "mail": "(X)"
   },
   {
-    "id": "assignmentUpdated",
-    "description": "Änderungen am zugewiesenen Dienst (z.B. Datum)",
+    "id": "assignmentCreated",
+    "description": "Neue Dienstzuweisung",
     "canbedisabled": "no",
     "type": "Dienstplan",
     "title": "Neue Dienstzuweisung in {{STANDORT}}\n<br>\n(optional aus individueller Vorlage)",
@@ -36,19 +36,7 @@
     "mail": ""
   },
   {
-    "id": "assignmentUpdated",
-    "description": "Änderungen am zugewiesenen Dienst (z.B. Datum)",
-    "canbedisabled": "no",
-    "type": "Dienstplan",
-    "title": "Private Notiz für Sie hinzugefügt",
-    "body": "Der Standort-Manager hat für den Dienst ({{ARBEITSBEREICH}}) von {{DIENSTBEGINN}} bis {{DIENSTENDE}} am Standort {{STANDORT}} folgende Notiz hinzugefügt: {{PRIVATE_NOTIZ}}.",
-    "when": "Wenn private Notiz bei der Zuweisung erstellt oder geändert wird.",
-    "to": "betroffener Benutzer",
-    "push": "X",
-    "mail": ""
-  },
-  {
-    "id": "assignmentUpdated-deleted",
+    "id": "assignmentDeleted",
     "description": "Ablösung vom Dienst",
     "canbedisabled": "no",
     "type": "Dienstplan",
@@ -85,7 +73,7 @@
   },
   {
     "id": "evaluationRequest",
-    "description": "Erinnerung zur Dienstauswertung",
+    "description": "Erinnerung zur Dienstauswertung durch Manager",
     "canbedisabled": "no",
     "type": "Dienstplan",
     "title": "Bitte werten Sie den Dienst am {{DIENSTBEGINN}} aus",
@@ -163,7 +151,7 @@
     "title": "Neue Schicht erstellt am Standort {{STANDORT}}",
     "body": "Eine neue Schicht wurde am Standort {{STANDORT}} von {{DIENSTBEGINN}} bis {{DIENSTENDE}} erstellt. {{ÖFFENTLICHE NOTIZ}}\nMöchten Sie sich hierfür bewerben?",
     "when": "Wenn entsprechend konfiguriert und der Dienstplan aktiv ist.",
-    "to": "Alle Benutzer mit der entsprechenden Arbeitsbereich Berechtigung",
+    "to": "Alle Benutzer mit der entsprechenden Arbeitsbereich-Berechtigung",
     "push": "X",
     "mail": ""
   },
